@@ -205,6 +205,7 @@ const server = http.createServer(async (req, res) => {
     res.end(JSON.stringify({ error: 'Not Found' }));
 });
 
+
 server.listen(API_PORT, () => {
     console.log(`REST Adapter running at http://localhost:${API_PORT}`);
 });
